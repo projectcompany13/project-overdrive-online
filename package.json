@@ -1,0 +1,19 @@
+{
+  "name": "project-overdrive-online",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Браузерная 2D arena shooter с авторитетным Node.js сервером и Socket.IO",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node test/smoke.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
